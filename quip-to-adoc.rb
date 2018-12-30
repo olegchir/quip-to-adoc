@@ -55,7 +55,7 @@ class Array
 end
 
 def string_to_file(src, dest)
-  if src.nil?
+  if src.nil? or dest.nil?
     nil
   else
     File.delete(dest) if File.exist?(dest)
