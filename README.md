@@ -1,6 +1,6 @@
 # Summary
 
-A converter between Quip topics and AsciiDoc files for the podcast "[Razbor Poletov](https://razborpoletov.com/)."
+A converter between Quip topics and AsciiDoc files for "[Razbor Poletov](https://razborpoletov.com/)."
 
 # How to install and run it
 
