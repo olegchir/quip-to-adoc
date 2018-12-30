@@ -4,13 +4,13 @@ A converter between Quip topics and AsciiDoc files for the podcast "[Razbor Pole
 
 # How to install and run it
 
-0. Clone this code, optionally `chmod 755 ./qip-to-adoc.rb`
+0. Clone this code, optionally `chmod 755 ./quip-to-adoc.rb`
 1. Install gems
     * `gem install rationalist` (POSIX command line parser, [GitHub repo](https://github.com/janlelis/rationalist))
     * `gem install httparty` (Simple HTTP wrapper, [GitHub repo](https://github.com/jnunemaker/httparty))
     * `gem install reverse_markdown` (HTML to Markdown converter, [GitHub repo](https://github.com/xijo/reverse_markdown))
     * `gem install kramdown` (Markdown parser and converter, [GitHub repo](https://github.com/gettalong/kramdown))
-    * `gem install kramdown-asciidoc` (Kramdown extension for Kramdown, [GitHub repo](https://github.com/asciidoctor/kramdown-asciidoc))
+    * `gem install kramdown-asciidoc` (Asciidoc extension for Kramdown, [GitHub repo](https://github.com/asciidoctor/kramdown-asciidoc))
     * `gem install asciidoctor` (Official Asciidoctor gem, [GitHub repo](https://github.com/asciidoctor/asciidoctor))
 2. Get an API token here: https://quip.com/dev/token
 3. Get a topic ID from URL like this: `https://quip.com/2RL1A64NqA2N`
